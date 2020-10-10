@@ -1,0 +1,133 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title> SHOEPA </title>
+	<style>
+	h1 {
+		background-color: black;
+		color: white;
+  		font-family: courier;
+  		font-size: 400%;
+	}
+	ul {
+  		list-style-type: none;
+  		margin: 10;
+  		padding: 0;
+  		overflow: hidden;
+  		background-color: #444;
+		text-align: center;
+	}
+	li {
+  		float: left;
+	}
+	li a {
+  		display: block;
+  		color: white;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+	}
+	li a:hover {
+ 	 	background-color: #333;
+	}
+	h3 {
+		color: white;
+  		font-family: courier;
+  		text-align: center;
+	}
+	table {
+  		font-family: arial, sans-serif;
+  		border-collapse: collapse;
+  		width: 100%;
+	}
+	input[type=text], select {
+  		width: 100%;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+  		display: inline-block;
+  		border: 1px solid #ccc;
+  		border-radius: 4px;
+  		box-sizing: border-box;
+	}
+
+	input[type=submit] {
+ 	 	width: 100%;
+  		background-color:#444;
+  		color: white;
+  		padding: 14px 20px;
+  		margin: 8px 0;
+  		border: none;
+  		border-radius: 4px;
+  		cursor: pointer;
+	}
+
+	input[type=submit]:hover {
+  		background-color: #333;
+	}
+
+	div {
+  		border-radius: 5px;
+  		background-color: #f2f2f2;
+  		padding: 20px;
+	}
+	</style>
+</head>
+<body>
+<ul>
+	<li>
+		<h3><a href="index.html">HOME</a></h3>
+	</li>
+	<li>
+		<h3><a href="About.html">ABOUT</a></h3>
+	</li>
+	<li>
+		<h3><a href="Product.html">PRODUCT</a></h3>
+	</li>
+	<li>
+		<h3><a href="Service.html">SERVICE</a></h3>
+	</li>
+</ul>
+<h1 text align="center"> SHOEPA</h1>
+<h2 text align="center"> SHOEPA's Contact Number: 09563468654 </h2>
+<h2 text align="center"> SHOEP's Email Address: SHOEPA@gmail.com </h2>
+<div>
+  	<form action="php.php">
+    		<label for="fname">FULL NAME</label>
+    		<input type="text" id="fname" name="firstname" placeholder="Your full name..">
+
+    		<label for="lname">CONTACT NUMBER</label>
+    		<input type="text" id="lname" name="lastname" placeholder="Your contact number..">
+
+		<label for="lname">FULL ADDRESS (House Number, Street, Barangay, Province, Country) </label>
+    		<input type="text" id="lname" name="lastname" placeholder="Your full address..">	
+
+    	<label for="brand">SHOE BRAND</label>
+    	<select id="brand" name="Brand of Shoes">
+      		<option value="Nike">NIKE</option>
+      		<option value="Addidas">ADDIDAS</option>
+      		<option value="New Balance">NEW BALANCE</option>
+		<option value="Fila">FILA</option>
+    	</select>
+	<label for="number">SHOE NUMBER</label>
+	<select id="number" name="Number of Shoes">
+      		<option value="ONE">ONE</option>
+      		<option value="TWO">TWO</option>
+      		<option value="THREE">THREE</option>
+		<option value="FOUR">FOUR</option>
+		<option value="FIVE">FIVE</option>
+    	</select>
+	<label for="number">SHOE SIZE</label>
+	<select id="number" name="Size of Shoes">
+      		<option value="ONE">US 6</option>
+      		<option value="TWO">US 7</option>
+      		<option value="THREE">US 8</option>
+		<option value="FOUR">US 9</option>
+		<option value="FIVE">US 10</option>
+		<option value="SIX">US 11</option>
+		<option value="SEVEN">US 12</option>
+		<option value="EIGHT">US 13</option>
+    	</select>
+	<input type="submit" value="Submit">
+  	</form>
+</body>
+</html>
